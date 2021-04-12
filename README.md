@@ -50,8 +50,29 @@
 ![REACT.JS](https://img.shields.io/badge/-REACT-3C287D?style=for-the-badget&logo=html5)
 ![REDUX](https://img.shields.io/badge/-REDUX-3C287D?style=for-the-badget&logo=Redux)
 
+<br>
 
+## 🔧 Установка
+1. Склонируйте репозиторий
+```
+git clone https://github.com/Leonard94/MovieAPI.git
+```
 
+2. Установить зависимости
+```
+npm install
+```
+3. Запустить проект
+```
+npm start
+```
+4. Готово!
+```
+Happy Hacking!
+```
 
+<br>
 
+<p align='center'>
 <img src='http://vladkoleda.ru/img/gif/gif__react-api.gif'>
+</p>
