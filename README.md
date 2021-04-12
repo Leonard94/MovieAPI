@@ -2,7 +2,7 @@
 </br>
 
 <p align='center'>
-<img src='http://vladkoleda.ru/img/git/git__movie.jpg'>
+<img width='700' src='http://vladkoleda.ru/img/git/git__movie.jpg'>
 </p>
 
 
