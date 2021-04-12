@@ -1,10 +1,10 @@
 <h1 align="center">Библиотека фильмов на React.js </h1>
 </br>
 
-
 <p align='center'>
-<img src='http://vladkoleda.ru/img/git/git__movie.jpg>
+<img src='http://vladkoleda.ru/img/git/git__movie.jpg'>
 </p>
+
 
 
 ## 🌟 Описание
