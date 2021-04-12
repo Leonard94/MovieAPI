@@ -49,7 +49,6 @@
 ![JavaScript](https://img.shields.io/badge/-JAVASCRIPT-3C287D?style=for-the-badget&logo=JavaScript)
 ![REACT.JS](https://img.shields.io/badge/-REACT-3C287D?style=for-the-badget&logo=html5)
 ![REDUX](https://img.shields.io/badge/-REDUX-3C287D?style=for-the-badget&logo=Redux)
-![TypeScript](https://img.shields.io/badge/-TYPESCRIPT-3C287D?style=for-the-badget&logo=TypeScript)
 
 
 
