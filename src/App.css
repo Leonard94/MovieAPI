@@ -1,0 +1,86 @@
+/* #region NULL */
+
+/* Обнуляем отступы. */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  }
+  
+  /*Обнуляем подсчёт ширины блока так, чтобы было удобней верстать*/
+  *, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  
+  /*Убираем линии обводки у некоторых браузеров*/
+  :focus,:active{outline:none;}
+  a:focus,a:active{outline: none;}
+  
+  /*Перечисляем HTML5 теги и делаем их блочными*/
+  nav,footer,header,aside{display: block;}
+  
+  /*Обращаемся к тегам HTML и BODY и применим параметры, которые выравнивают поведение шрифтов и элементов для разных браузеров.   */
+  html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+  
+  /*Обращаемся к тегам Form и просим их наследовать семейства шрифта тк по умолчанию они не наследюут */
+  input, button, textarea{font-family: inherit;}
+  
+  /*Остальные параметры, которые убирают некоторые особенности в разных браузерах*/
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner{padding: 0; border: 0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style:none}
+  img{vertical-align: top;}
+  
+  /*Обнуляем заголовки H*/
+  h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+  
+
+/* #endregion */
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 140%;
+}
+body {
+  background: #262A2E;
+}
+
+.posters__row {
+  display: flex;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

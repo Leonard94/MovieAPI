@@ -1,0 +1,10 @@
+.saved {
+    background: #262A2E;
+    color: white;
+    min-height: 90vh;
+    padding: 40px 0;
+}
+.saved__container {
+    max-width: 1000px;
+    margin: 0 auto;
+}

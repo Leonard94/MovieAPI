@@ -1,0 +1,70 @@
+.pagination {
+    padding-bottom: 30px;
+    color: white;
+    background: #262A2E;
+}
+
+.pagination__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.currentPage {
+    background: rgb(204, 62, 62);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.arrowPrev, .arrowNext {
+    position: relative;
+    background: rgb(204, 62, 62);
+    height: 10px;
+    width: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.arrowPrev:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    right: 100%;
+    border-width: 10px 20px 10px 0px;
+    border-style: solid;
+    border-color: transparent rgb(204, 62, 62);
+    border-radius: 5px;
+}
+
+.arrowNext:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    left: 100%;
+    border-radius: 5px;
+    border-width: 10px 0px 10px 20px;
+    border-style: solid;
+    border-color: transparent rgb(204, 62, 62);
+}
+
+.arrowPrev:hover, .arrowNext:hover {
+    background: rgb(230, 35, 35);
+}
+
+.arrowNext:hover:after, .arrowPrev:hover:after {
+    border-color: transparent rgb(230, 35, 35);
+}
+
+/* Активной странице дать цвет */

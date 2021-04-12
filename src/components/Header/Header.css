@@ -1,0 +1,36 @@
+header {
+    background: #1B1E21;
+}
+
+.header__container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header__menu {}
+
+.header__list {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+.header__link {
+    color: white;
+    padding: 10px 10px;
+    margin: 0 30px;
+}
+
+.header__link:hover {
+    color: grey;
+}
+
+.activeLink {
+    color: gold;
+}
+
+.activeLink:hover {
+    color: gold;
+}
